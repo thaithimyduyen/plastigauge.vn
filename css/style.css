@@ -316,7 +316,7 @@ span#fcta-zalo-tracking {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
+    background: rgba(90, 142, 14, 0.7);
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
@@ -336,7 +336,7 @@ span#fcta-zalo-tracking {
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--dark);
+    background: rgba(90, 142, 14, 0.4);;
 }
 
 @media (max-width: 768px) {
@@ -350,10 +350,12 @@ span#fcta-zalo-tracking {
 }
 
 .bounce {
+    display: flex;
+    justify-content: space-between;
     height: 50px;
     overflow: hidden;
     position: relative;
-    background: #fefefe;
+    background: rgba(90, 142, 14, 0.7);
     color: #333;
 }
 
@@ -365,18 +367,6 @@ span#fcta-zalo-tracking {
     margin: 0;
     line-height: 50px;
     text-align: center;
-    transform: translateX(50%);
-    animation: bouncing-text 10s linear infinite alternate;
-}
-
-@keyframes bouncing-text {
-    0% {
-        transform: translateX(50%);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
 }
 
 .bounce img {
@@ -436,8 +426,14 @@ span#fcta-zalo-tracking {
 }
 
 .about-item {
-    text-align: center;
+    min-height: 900px;
+    text-align: left;
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+}
+
+.about-item a {
+    text-decoration: underline;
+    color: rgba(90, 142, 14, 0.7);
 }
 
 .about-item__icon {
@@ -511,7 +507,7 @@ span#fcta-zalo-tracking {
 
 .codepro-btn-12 span {
     background: rgb(0, 172, 238);
-    background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    background: rgba(90, 142, 14, 0.7);
     display: block;
     position: absolute;
     width: 130px;
@@ -730,7 +726,7 @@ span#fcta-zalo-tracking {
 .content-about-item {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .content-about-item__icon {
