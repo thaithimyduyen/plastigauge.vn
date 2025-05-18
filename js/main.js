@@ -89,7 +89,7 @@ navLinks.forEach(navLink => {
 })
 
 // Chat Zalo
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { document.getElementById("linkzalo").href = "https://zalo.me/0367588839"; }
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { document.getElementById("linkzalo").href = "https://zalo.me/0938888958"; }
 
 // Form submit
 const result = document.getElementById("result");
