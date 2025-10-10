@@ -140,6 +140,25 @@ Array.prototype.slice.call(forms)
         },);
     })
 
-    $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip(); 
-    });
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+// Show spinner immediately
+document.writeln('<div id="spinner"></div>');
+
+window.addEventListener("DOMContentLoaded", async () => {
+    // Load spinner first
+    const spinner = await fetch("spinner.html").then(r => r.text());
+    document.body.insertAdjacentHTML("afterbegin", spinner);
+
+    // Load menu
+    const menu = await fetch("menu.html").then(r => r.text());
+    document.body.insertAdjacentHTML("afterbegin", menu);
+
+    // Wait for short delay to simulate load
+    setTimeout(() => {
+        document.querySelector(".spinner-overlay")?.remove();
+    }, 800);
+});
