@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 🌟 SEO cơ bản -->
+    <title>Thông tin kỹ thuật Plastigauge | Bài viết hướng dẫn & ứng dụng thực tế</title>
+    <meta name="description"
+        content="Tổng hợp bài viết hướng dẫn, giải thích nguyên lý hoạt động, cách sử dụng và các ứng dụng thực tế của Plastigauge trong đo khe hở cơ khí.">
+    <meta name="keywords"
+        content="Plastigauge, cách Plastigauge hoạt động, hướng dẫn sử dụng Plastigauge, đo khe hở, đo khe hở bạc đạn, đo khe hở trục khuỷu, Plastigauge Việt Nam, thông tin kỹ thuật Plastigauge">
+    <meta name="author" content="Plastigauge Việt Nam">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="SGp0Sr8MvNsJG5mpyOOMSNpk2r-VsocHstsj5mRBD6o" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://plastigauge.vn/information/index.html">
+
+    <!-- 🌍 Open Graph (Facebook, Zalo, LinkedIn) -->
+    <meta property="og:title" content="Thông tin kỹ thuật Plastigauge | Hướng dẫn & Ứng dụng thực tế">
+    <meta property="og:description"
+        content="Khám phá cách Plastigauge hoạt động, hướng dẫn sử dụng chi tiết và các ví dụ ứng dụng thực tế trong đo khe hở cơ khí.">
+    <meta property="og:image" content="https://plastigauge.vn/img/information/cover-information.jpg">
+    <meta property="og:url" content="https://plastigauge.vn/information/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="vi_VN">
+
+    <!-- 🐦 Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Thông tin kỹ thuật Plastigauge | Hướng dẫn & Ứng dụng thực tế">
+    <meta name="twitter:description"
+        content="Tổng hợp kiến thức về Plastigauge: nguyên lý, cách đọc kết quả, ứng dụng trong ô tô, công nghiệp và nhiều hơn nữa.">
+    <meta name="twitter:image" content="https://plastigauge.vn/img/information/cover-information.jpg">
+
+    <!-- 🔍 Schema.org WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Thông tin kỹ thuật Plastigauge",
+      "description": "Trang tổng hợp các bài viết hướng dẫn sử dụng và ứng dụng Plastigauge.",
+      "url": "https://plastigauge.vn/information/index.html",
+      "inLanguage": "vi"
+    }
+    </script>
+
+    <!-- 🔧 Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <!-- ✨ Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- 📦 CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 🎨 Template Stylesheet -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <style>
+        /* Tinh chỉnh nhẹ cho trang Information để hợp màu chung */
+        .info-hero {
+            background: #f8f9fa;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .info-hero h1 {
+            font-weight: 700;
+        }
+
+        .article-list .card {
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .article-list .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+        }
+
+        .article-list .card h5 a {
+            color: #212529;
+        }
+
+        .article-list .card h5 a:hover {
+            color: var(--bs-primary);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- MENU & SPINNER sẽ được main.js tự động load -->
+
+    <div class="container-xxl bg-white p-0">
+
+        <!-- Header khu vực bài viết – dùng màu primary giống site -->
+        <section class="info-hero py-5 mb-4">
+            <div class="container">
+                <span class="text-uppercase small text-primary fw-semibold">THÔNG TIN KỸ THUẬT</span>
+                <h1 class="mb-3 text-primary">Thông tin & Hướng dẫn Plastigauge</h1>
+                <p class="lead mb-0">
+                    Tổng hợp kiến thức, tài liệu kỹ thuật và các hướng dẫn sử dụng Plastigauge để đo khe hở cơ khí
+                    một cách chính xác – phù hợp cho kỹ thuật viên, thợ máy, sinh viên và người dùng chuyên nghiệp.
+                </p>
+            </div>
+        </section>
+
+        <main class="container pb-5" style="min-height: 700px;">
+
+            <!-- ⭐ DANH SÁCH 10 BÀI VIẾT: 2 CỘT × 5 HÀNG -->
+            <section class="article-list">
+                <div class="row g-4">
+
+                    <!-- Bài 1 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="cach-plastigauge-hoat-dong.html">
+                                <img src="../img/information/cach-Plastigauge-hoat-dong-1.jpg" class="card-img-top"
+                                    alt="Cách Plastigauge hoạt động">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="cach-plastigauge-hoat-dong.html" class="text-decoration-none">
+                                        Cách Plastigauge hoạt động
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Nguyên lý hoạt động của dải Plastigauge và cách đọc độ dẹp đúng chuẩn.
+                                </p>
+                                <a href="cach-plastigauge-hoat-dong.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 2 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="huong-dan-su-dung-plastigauge.html">
+                                <img src="../img/information/huong-dan-su-dung-1.jpg" class="card-img-top"
+                                    alt="Hướng dẫn sử dụng Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="huong-dan-su-dung-plastigauge.html" class="text-decoration-none">
+                                        Hướng dẫn sử dụng Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Quy trình đặt dải đo, siết lực và đọc kết quả đúng kỹ thuật.
+                                </p>
+                                <a href="huong-dan-su-dung-plastigauge.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 3 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="ung-dung-plastigauge-trong-o-to.html">
+                                <img src="../img/information/ung-dung-o-to-1.jpg" class="card-img-top"
+                                    alt="Ứng dụng Plastigauge trong ô tô">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="ung-dung-plastigauge-trong-o-to.html" class="text-decoration-none">
+                                        Ứng dụng Plastigauge trong ô tô
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Vì sao bảo dưỡng và đại tu động cơ đều cần dùng Plastigauge.
+                                </p>
+                                <a href="ung-dung-plastigauge-trong-o-to.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 4 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="do-khe-ho-truc-khuyu.html">
+                                <img src="../img/information/truc-khuyu-1.jpg" class="card-img-top"
+                                    alt="Đo khe hở trục khuỷu bằng Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="do-khe-ho-truc-khuyu.html" class="text-decoration-none">
+                                        Đo khe hở trục khuỷu bằng Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Hướng dẫn kiểm tra khe hở bạc đạn trục khuỷu đúng chuẩn.
+                                </p>
+                                <a href="do-khe-ho-truc-khuyu.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 5 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="cach-doc-thang-do.html">
+                                <img src="../img/information/thang-do-1.jpg" class="card-img-top"
+                                    alt="Cách đọc thang đo Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="cach-doc-thang-do.html" class="text-decoration-none">
+                                        Cách đọc thang đo Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Cách so sánh độ dẹp và nội suy kết quả đo chính xác.
+                                </p>
+                                <a href="cach-doc-thang-do.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 6 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="so-sanh-cac-loai-plastigauge.html">
+                                <img src="../img/information/so-sanh-1.jpg" class="card-img-top"
+                                    alt="So sánh các loại Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="so-sanh-cac-loai-plastigauge.html" class="text-decoration-none">
+                                        So sánh các loại Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Khi nào chọn PL-A, PL-F, PL-E, PL-D hoặc PL-X?
+                                </p>
+                                <a href="so-sanh-cac-loai-plastigauge.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 7 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="loi-thuong-gap.html">
+                                <img src="../img/information/loi-1.jpg" class="card-img-top"
+                                    alt="Lỗi thường gặp khi dùng Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="loi-thuong-gap.html" class="text-decoration-none">
+                                        7 lỗi thường gặp khi dùng Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Những sai lầm phổ biến gây lệch kết quả và cách tránh.
+                                </p>
+                                <a href="loi-thuong-gap.html" class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 8 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="tai-sao-nen-dung-plastigauge.html">
+                                <img src="../img/information/tai-sao-1.jpg" class="card-img-top"
+                                    alt="Tại sao nên dùng Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="tai-sao-nen-dung-plastigauge.html" class="text-decoration-none">
+                                        Tại sao nên dùng Plastigauge?
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Ưu điểm vượt trội khi đo khe hở bằng Plastigauge.
+                                </p>
+                                <a href="tai-sao-nen-dung-plastigauge.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 9 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="meo-cho-ky-thuat-vien.html">
+                                <img src="../img/information/meo-1.jpg" class="card-img-top"
+                                    alt="Mẹo cho kỹ thuật viên dùng Plastigauge">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="meo-cho-ky-thuat-vien.html" class="text-decoration-none">
+                                        Mẹo sử dụng Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Kinh nghiệm thực tế giúp đo nhanh và chính xác hơn.
+                                </p>
+                                <a href="meo-cho-ky-thuat-vien.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Bài 10 -->
+                    <div class="col-md-6">
+                        <article class="card h-100">
+                            <a href="bao-quan-plastigauge.html">
+                                <img src="../img/information/bao-quan-1.jpg" class="card-img-top"
+                                    alt="Bảo quản Plastigauge đúng cách">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="mb-2">
+                                    <a href="bao-quan-plastigauge.html" class="text-decoration-none">
+                                        Cách bảo quản Plastigauge
+                                    </a>
+                                </h5>
+                                <p class="flex-grow-1 mb-3">
+                                    Tránh biến dạng dải đo và đảm bảo độ chính xác lâu dài.
+                                </p>
+                                <a href="bao-quan-plastigauge.html"
+                                    class="btn btn-primary btn-sm mt-auto align-self-start">
+                                    Đọc bài viết
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
