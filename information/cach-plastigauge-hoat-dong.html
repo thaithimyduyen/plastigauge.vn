@@ -90,7 +90,7 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Nếu bạn đã có header/menu chung, include ở đây -->
+        <!-- MENU / HEADER dùng chung – load bằng main.js hoặc include server-side -->
         <!-- <?php include 'header.html'; ?> -->
 
         <main class="container my-5">
@@ -105,31 +105,38 @@
 
             <!-- 👇 Hình tổng quan / banner -->
             <div class="row g-3 mb-4">
-                <div class="col-md-8">
-                    <a href="img/cach-Plastigauge-hoat-dong-1.jpg" data-lightbox="how-works">
-                        <img src="img/cach-Plastigauge-hoat-dong-1.jpg" alt="Tổng quan cách Plastigauge hoạt động"
+
+                <div class="col-12 col-md-4">
+                    <a href="/img/cach-Plastigauge-hoat-dong-1.jpg" data-lightbox="how-works">
+                        <img src="/img/cach-Plastigauge-hoat-dong-1.jpg" alt="Tổng quan cách Plastigauge hoạt động"
                             class="img-fluid rounded shadow-sm w-100">
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="img/cach-Plastigauge-hoat-dong-2.jpg" data-lightbox="how-works">
-                        <img src="img/cach-Plastigauge-hoat-dong-2.jpg" alt="Dải Plastigauge và thước đối chiếu"
-                            class="img-fluid rounded shadow-sm mb-3">
-                    </a>
-                    <a href="img/cach-Plastigauge-hoat-dong-3.jpg" data-lightbox="how-works">
-                        <img src="img/cach-Plastigauge-hoat-dong-3.jpg"
-                            alt="So sánh bề rộng vệt Plastigauge với thước chuẩn" class="img-fluid rounded shadow-sm">
+
+                <div class="col-12 col-md-4">
+                    <a href="/img/cach-Plastigauge-hoat-dong-2.jpg" data-lightbox="how-works">
+                        <img src="/img/cach-Plastigauge-hoat-dong-2.jpg" alt="Dải Plastigauge và thước đối chiếu"
+                            class="img-fluid rounded shadow-sm w-100">
                     </a>
                 </div>
+
+                <div class="col-12 col-md-4">
+                    <a href="/img/cach-Plastigauge-hoat-dong-3.jpg" data-lightbox="how-works">
+                        <img src="/img/cach-Plastigauge-hoat-dong-3.jpg"
+                            alt="So sánh bề rộng vệt Plastigauge với thước chuẩn"
+                            class="img-fluid rounded shadow-sm w-100">
+                    </a>
+                </div>
+
             </div>
+
 
             <!-- 1. Plastigauge là gì -->
             <section class="mb-5">
                 <h2 class="h4 mb-3">1. Plastigauge là gì?</h2>
                 <p>
                     Plastigauge được dùng để đo <strong>khe hở (clearance)</strong> giữa hai bề mặt, thường là các bề
-                    mặt
-                    ổ trục hoặc chi tiết lắp ghép mà sau khi siết lại rất khó tiếp cận.
+                    mặt ổ trục hoặc chi tiết lắp ghép mà sau khi siết lại rất khó tiếp cận.
                     Thay vì phải dùng đồng hồ so, panme hoặc thước lá phức tạp, kỹ thuật viên chỉ cần
                     <strong>kẹp một dải Plastigauge mỏng giữa hai bề mặt rồi siết đúng lực</strong>.
                 </p>
@@ -145,8 +152,8 @@
                 <h2 class="h4 mb-3">2. Nguyên lý hoạt động của Plastigauge</h2>
                 <div class="row g-3 mb-3">
                     <div class="col-md-6">
-                        <a href="img/cach-Plastigauge-hoat-dong-4.jpg" data-lightbox="how-works">
-                            <img src="img/cach-Plastigauge-hoat-dong-4.jpg"
+                        <a href="/img/cach-Plastigauge-hoat-dong-4.jpg" data-lightbox="how-works">
+                            <img src="/img/cach-Plastigauge-hoat-dong-4.jpg"
                                 alt="Đặt dải Plastigauge trên bề mặt trục hoặc bạc đạn"
                                 class="img-fluid rounded shadow-sm">
                         </a>
@@ -155,8 +162,8 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <a href="img/cach-Plastigauge-hoat-dong-5.jpg" data-lightbox="how-works">
-                            <img src="img/cach-Plastigauge-hoat-dong-5.jpg"
+                        <a href="/img/cach-Plastigauge-hoat-dong-5.jpg" data-lightbox="how-works">
+                            <img src="/img/cach-Plastigauge-hoat-dong-5.jpg"
                                 alt="Sau khi siết, Plastigauge bị ép bẹt thành một vệt"
                                 class="img-fluid rounded shadow-sm">
                         </a>
@@ -199,8 +206,9 @@
                             hoặc mạt kim loại làm sai lệch kết quả.
                         </p>
                         <p class="small text-muted">
-                            Hình 3 – Bề mặt được vệ sinh sạch trước khi đặt Plastigauge
-                            (sử dụng hình <code>cach-Plastigauge-hoat-dong-6.jpg</code> nếu cần minh họa).
+                            Hình minh họa – Bề mặt được vệ sinh sạch trước khi đặt Plastigauge
+                            (có thể dùng hình <code>cach-Plastigauge-hoat-dong-6.jpg</code> nếu bạn thêm vào thư mục
+                            ảnh).
                         </p>
 
                         <h3 class="h5 mt-4">Bước 2 – Cắt và đặt dải Plastigauge</h3>
@@ -252,8 +260,8 @@
                     <li><strong>Ô tô:</strong> đo khe hở bạc đạn trục khuỷu, bạc biên, trục cam, kiểm tra sau khi đại tu
                         động cơ.</li>
                     <li><strong>Ngành hàng hải:</strong> đo khe hở ổ trục trục chân vịt, ổ trục lớn.</li>
-                    <li><strong>Nhà máy điện & tuabin:</strong> kiểm tra ổ trục tuabin, bơm, hệ thống áp lực.</li>
-                    <li><strong>Đường ống & mặt bích:</strong> đo độ phẳng, khe hở giữa mặt bích và gioăng.</li>
+                    <li><strong>Nhà máy điện &amp; tuabin:</strong> kiểm tra ổ trục tuabin, bơm, hệ thống áp lực.</li>
+                    <li><strong>Đường ống &amp; mặt bích:</strong> đo độ phẳng, khe hở giữa mặt bích và gioăng.</li>
                     <li><strong>Khuôn ép, khuôn nhựa:</strong> kiểm tra khe hở giữa các bề mặt khuôn.</li>
                 </ul>
                 <p>
@@ -304,9 +312,111 @@
                     cho ứng dụng cụ thể, hãy liên hệ <strong>Plastigauge Việt Nam</strong> để được hỗ trợ.
                 </p>
             </section>
+
+            <!-- ⭐ BÀI VIẾT LIÊN QUAN – GIỮ LẠI & KẾT HỢP TỪ TRANG INFORMATION -->
+            <section class="mb-5">
+                <h2 class="h4 mb-3">Bài viết liên quan</h2>
+                <div class="row g-3">
+
+                    <!-- Bài 2 -->
+                    <div class="col-md-6">
+                        <div class="d-flex border rounded p-3 h-100">
+                            <div class="flex-shrink-0 me-3">
+                                <a href="huong-dan-su-dung-plastigauge.html">
+                                    <img src="/img/huong-dan-su-dung-1.jpg" alt="Hướng dẫn sử dụng Plastigauge"
+                                        class="img-fluid rounded" style="max-width: 120px;">
+                                </a>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h3 class="h6 mb-1">
+                                    <a href="huong-dan-su-dung-plastigauge.html" class="text-decoration-none">
+                                        Hướng dẫn sử dụng Plastigauge
+                                    </a>
+                                </h3>
+                                <p class="mb-2 small">
+                                    Quy trình đặt dải nhựa, siết mô-men và đọc kết quả đúng kỹ thuật.
+                                </p>
+                                <a href="huong-dan-su-dung-plastigauge.html" class="small">Xem hướng dẫn &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bài 3 -->
+                    <div class="col-md-6">
+                        <div class="d-flex border rounded p-3 h-100">
+                            <div class="flex-shrink-0 me-3">
+                                <a href="ung-dung-plastigauge-trong-o-to.html">
+                                    <img src="/img/ung-dung-o-to-1.jpg" alt="Ứng dụng Plastigauge trong ô tô"
+                                        class="img-fluid rounded" style="max-width: 120px;">
+                                </a>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h3 class="h6 mb-1">
+                                    <a href="ung-dung-plastigauge-trong-o-to.html" class="text-decoration-none">
+                                        Ứng dụng Plastigauge trong ô tô
+                                    </a>
+                                </h3>
+                                <p class="mb-2 small">
+                                    Vì sao kiểm tra bạc đạn – trục khuỷu khi đại tu động cơ luôn cần Plastigauge.
+                                </p>
+                                <a href="ung-dung-plastigauge-trong-o-to.html" class="small">Đọc bài viết &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bài 4 -->
+                    <div class="col-md-6">
+                        <div class="d-flex border rounded p-3 h-100">
+                            <div class="flex-shrink-0 me-3">
+                                <a href="do-khe-ho-truc-khuyu.html">
+                                    <img src="/img/truc-khuyu-1.jpg" alt="Đo khe hở trục khuỷu bằng Plastigauge"
+                                        class="img-fluid rounded" style="max-width: 120px;">
+                                </a>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h3 class="h6 mb-1">
+                                    <a href="do-khe-ho-truc-khuyu.html" class="text-decoration-none">
+                                        Đo khe hở trục khuỷu
+                                    </a>
+                                </h3>
+                                <p class="mb-2 small">
+                                    Quy trình chuẩn đo khe hở bạc chính và bạc biên bằng Plastigauge.
+                                </p>
+                                <a href="do-khe-ho-truc-khuyu.html" class="small">Xem chi tiết &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bài 5 -->
+                    <div class="col-md-6">
+                        <div class="d-flex border rounded p-3 h-100">
+                            <div class="flex-shrink-0 me-3">
+                                <a href="cach-doc-thang-do.html">
+                                    <img src="/img/thang-do-1.jpg" alt="Cách đọc thang đo Plastigauge"
+                                        class="img-fluid rounded" style="max-width: 120px;">
+                                </a>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h3 class="h6 mb-1">
+                                    <a href="cach-doc-thang-do.html" class="text-decoration-none">
+                                        Cách đọc thang đo Plastigauge
+                                    </a>
+                                </h3>
+                                <p class="mb-2 small">
+                                    Cách so vệt nhựa với thang chuẩn và nội suy chính xác giá trị khe hở.
+                                </p>
+                                <a href="cach-doc-thang-do.html" class="small">Đọc ngay &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
         </main>
 
-        <!-- Nếu bạn đã có footer chung, include ở đây -->
+        <!-- FOOTER dùng chung – include nếu có -->
         <!-- <?php include 'footer.html'; ?> -->
     </div>
 
