@@ -1,57 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Trang chính -->
+  <url>
+    <loc>https://plastigauge.vn/</loc>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://plastigauge.vn/</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-F.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/contact.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-A.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-B.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-C.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-D.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-E.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://plastigauge.vn/products/plastigauge-PL-X.html</loc>
-  <lastmod>2025-11-19T01:27:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <!-- Trang danh sách sản phẩm & liên hệ -->
+  <url>
+    <loc>https://plastigauge.vn/products.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
 
+  <!-- Trang sản phẩm chi tiết -->
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-A.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-B.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-C.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-D.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-E.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-F.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/products/plastigauge-PL-X.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Trang thông tin / blog -->
+  <url>
+    <loc>https://plastigauge.vn/information/index.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://plastigauge.vn/information/cach-plastigauge-hoat-dong.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/huong-dan-su-dung-plastigauge.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/ung-dung-plastigauge-trong-o-to.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/do-khe-ho-truc-khuyu.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/cach-doc-thang-do.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/so-sanh-cac-loai-plastigauge.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/loi-thuong-gap.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/tai-sao-nen-dung-plastigauge.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/meo-cho-ky-thuat-vien.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plastigauge.vn/information/bao-quan-plastigauge.html</loc>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
