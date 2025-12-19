@@ -46,6 +46,10 @@
     <loc>https://plastigauge.vn/products/plastigauge-PL-X.html</loc>
     <priority>0.8</priority>
   </url>
+   <url>
+    <loc>https://plastigauge.vn/products/silicone-mineral-grease.html</loc>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Trang thông tin / blog -->
   <url>
