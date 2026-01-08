@@ -48,9 +48,9 @@
     "logo": "https://plastigauge.vn/img/icon-deal-plastigauge.png",
     "description": "Plastigauge Việt Nam (plastigaugevn) là nhà phân phối chính hãng Plastigauge tại Việt Nam, cung cấp dụng cụ đo khe hở cơ khí chính xác từ Anh Quốc.",
     "sameAs": [
-      "https://www.facebook.com/plastigaugevn",
+      "https://www.facebook.com/profile.php?id=61583052565058",
       "https://www.linkedin.com/company/plastigaugevn",
-      "https://www.youtube.com/@plastigaugevn"
+      "https://www.youtube.com/@PlastigaugeVi%E1%BB%87tNam"
     ],
     "contactPoint": {
       "@type": "ContactPoint",
@@ -58,6 +58,49 @@
       "contactType": "Customer Service",
       "areaServed": "VN",
       "availableLanguage": ["Vietnamese", "English"]
+    },
+    "acceptedPaymentMethod": [
+    {
+      "@type": "PaymentMethod",
+      "name": "Bank Transfer"
+    }
+    ],
+    "availableDeliveryMethod": [
+    {
+      "@type": "DeliveryMethod",
+      "name": "Viettel Post"
+    },
+    {
+      "@type": "DeliveryMethod",
+      "name": "DHL Express"
+    }
+    ],
+    "deliveryTime": [
+    {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 3,
+        "maxValue": 5,
+        "unitCode": "DAY"
+      },
+      "name": "Hàng có sẵn"
+    },
+    {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 10,
+        "maxValue": 10,
+        "unitCode": "DAY"
+      },
+      "name": "Hàng đặt trước"
+    }],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "150 Nguyễn Cư Trinh, Quận 1",
+        "addressLocality": "TP. Hồ Chí Minh",
+        "addressCountry": "VN"
     }
   }
   </script>
@@ -94,15 +137,15 @@
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
                             <img style="width: 100%; height: 700px; object-fit: cover;"
-                                src="img/background0-plastigauge.jpg" alt="">
+                                src="img/background0-plastigauge.jpg" alt="ba hộp plastigauge PL-A, PLB, PL-C" ->
                         </div>
                         <div class="owl-carousel-item">
                             <img style="width: 100%; height: 700px; object-fit: cover;"
-                                src="img/background2-plastigauge.jpg" alt="">
+                                src="img/background2-plastigauge.jpg" alt="Thước plastigauge đặt gần khe hở động cơ">
                         </div>
                         <div class="owl-carousel-item">
                             <img style="width: 100%; height: 700px; object-fit: cover;"
-                                src="img/background3-plastigauge.jpg" alt="">
+                                src="img/background3-plastigauge.jpg" alt="Động cơ xoay trục">
                         </div>
                     </div>
                 </div>
@@ -139,10 +182,36 @@
                                 </p>
                                 <div class="mt-auto mb-3">
                                     <b>Thông tin liên hệ:</b><br>
-                                    Email: <a href="mailto:sales@plastigauge.vn"
-                                        class="text-primary">sales@plastigauge.vn</a><br>
-                                    Điện thoại: <a href="tel:0938888958" class="text-primary">0938 888 958</a>
+
+                                    <!-- Email -->
+                                    Email:
+                                    <a href="mailto:sales@plastigauge.vn" class="text-primary">
+                                        sales@plastigauge.vn
+                                    </a><br>
+
+                                    <!-- Phone -->
+                                    Điện thoại:
+                                    <a href="tel:0938888958" class="text-primary">
+                                        0938 888 958
+                                    </a>
+
+                                    <!-- Social icons -->
+                                    <div class="d-flex align-items-center gap-3 mt-2">
+                                        <!-- Facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=61583052565058" target="_blank"
+                                            aria-label="Facebook Plastigauge Việt Nam" class="text-primary fs-5">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+
+                                        <!-- YouTube -->
+                                        <a href="https://www.youtube.com/@PlastigaugeVi%E1%BB%87tNam" target="_blank"
+                                            aria-label="YouTube Plastigauge Việt Nam" class="text-danger fs-5">
+                                            <i class="bi bi-youtube"></i>
+                                        </a>
+
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -150,7 +219,7 @@
                     <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="about-item rounded overflow-hidden h-100 d-flex flex-column">
                             <div class="p-4 pb-0 flex-grow-1 d-flex flex-column">
-                                <h5 class=".btn-primary mb-3">Thước đo khe hở chính xác Plastigauge</h5>
+                                <h2 class=".btn-primary mb-3">Thước đo khe hở chính xác Plastigauge</h2>
                                 <p class="mb-3 text-justify">
                                     <b>Plastigauge<sup>®</sup></b> là loại thước đo khe hở chính xác, giúp xác định
                                     nhanh khoảng cách giữa các bề mặt lắp ráp. Sản phẩm đặc biệt hữu ích trong việc đo
@@ -195,22 +264,29 @@
                     <div class="col-lg-12">
                         <div class="text-center mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
 
-                            <h1 class="mb-4" style="color: rgba(90, 142, 14, 0.7);">
+                            <h2 class="mb-4" style="color: rgba(90, 142, 14, 0.7);">
                                 Sản phẩm của chúng tôi
-                            </h1>
+                            </h2>
 
                             <div class="d-flex justify-content-center flex-wrap gap-4 text-muted">
-                                <div class="d-flex align-items-center mb-3">
+                                <div class="d-flex align-items-center">
                                     <i class="bi bi-patch-check-fill text-success fs-4 me-3"></i>
-                                    <span class="fs-5 fw-medium">
+                                    <span class="fs-6 fw-small">
                                         Hàng chính hãng 100%, xuất xứ rõ ràng.
                                     </span>
                                 </div>
 
                                 <div class="d-flex align-items-center">
-                                    <i class="bi bi-file-earmark-check text-success fs-4 me-3"></i>
-                                    <span class="fs-5 fw-medium">
-                                        Xuất hóa đơn VAT đầy đủ, cung cấp CO / CQ theo yêu cầu
+                                    <i class="bi bi-patch-check-fill text-success fs-4 me-3"></i>
+                                    <span class="fs-6 fw-small">
+                                        Xuất hóa đơn VAT đầy đủ
+                                    </span>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-patch-check-fill text-success fs-4 me-3"></i>
+                                    <span class="fs-6 fw-small">
+                                        Cung cấp CO / CQ theo yêu cầu
                                     </span>
                                 </div>
 
@@ -226,28 +302,8 @@
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
-                                        <a href="/products/plastigauge-PL-F.html">
-                                            <img src="/img/plastigauge-plf-1.jpg" alt="plastigauge-f-1"></a>
-                                    </div>
-                                    <div class="p-4 pb-0 text-center">
-                                        <h5 class="card-title">
-                                            <a class="text-primary mb-5" href="/products/plastigauge-PL-F.html">
-                                                Plastigauge
-                                                PL-F</a>
-                                        </h5>
-                                    </div>
-                                    <div class="pb-0 text-center content-about-item">
-                                        <a class="codepro-custom-btn codepro-btn-12"
-                                            href="/contact.html"><span>Click!</span><span>Liên hệ</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden img-fluid">
                                         <a href="/products/plastigauge-PL-A.html"><img src="/img/plastigauge-pla-1.jpg"
-                                                alt="plastigauge-a-1"></a>
+                                                alt="Hộp plastigauge PL-A"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -258,7 +314,7 @@
                                     </div>
                                     <div class="pb-0 text-center content-about-item">
                                         <a class="codepro-custom-btn codepro-btn-12"
-                                            href="/contact.html"><span>Click!</span><span>Liên hệ</span>
+                                            href="/contact.html"><span>Click!</span><span>Có hàng sẵn</span>
                                         </a>
                                     </div>
                                 </div>
@@ -267,7 +323,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
                                         <a href="/products/plastigauge-PL-B.html"><img src="/img/plastigauge-plb-1.jpg"
-                                                alt="plastigauge-b-1"></a>
+                                                alt="Hộp plastigauge PL-B"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -278,7 +334,7 @@
                                     </div>
                                     <div class="pb-0 text-center content-about-item">
                                         <a class="codepro-custom-btn codepro-btn-12"
-                                            href="/contact.html"><span>Click!</span><span>Liên hệ</span>
+                                            href="/contact.html"><span>Click!</span><span>Có hàng sẵn</span>
                                         </a>
                                     </div>
                                 </div>
@@ -287,7 +343,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
                                         <a href="/products/plastigauge-PL-C.html"><img src="/img/plastigauge-plc-1.jpg"
-                                                alt="plastigauge-c-1"></a>
+                                                alt="Hộp plastigauge PL-C"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -298,7 +354,7 @@
                                     </div>
                                     <div class="pb-0 text-center content-about-item">
                                         <a class="codepro-custom-btn codepro-btn-12"
-                                            href="/contact.html"><span>Click!</span><span>Liên hệ</span>
+                                            href="/contact.html"><span>Click!</span><span>Có hàng sẵn</span>
                                         </a>
                                     </div>
                                 </div>
@@ -307,7 +363,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
                                         <a href="/products/plastigauge-PL-D.html"><img src="/img/plastigauge-pld-1.jpg"
-                                                alt="plastigauge-d-1"></a>
+                                                alt="Hộp plastigauge PL-D"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -327,7 +383,7 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
                                         <a href="/products/plastigauge-PL-E.html"><img src="/img/plastigauge-ple-1.jpg"
-                                                alt="plastigauge-e-1"></a>
+                                                alt="Hộp plastigauge PL-E"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -343,11 +399,31 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden img-fluid">
+                                        <a href="/products/plastigauge-PL-F.html">
+                                            <img src="/img/plastigauge-plf-1.jpg" alt="Hộp plastigauge PL-F"></a>
+                                    </div>
+                                    <div class="p-4 pb-0 text-center">
+                                        <h5 class="card-title">
+                                            <a class="text-primary mb-5" href="/products/plastigauge-PL-F.html">
+                                                Plastigauge
+                                                PL-F</a>
+                                        </h5>
+                                    </div>
+                                    <div class="pb-0 text-center content-about-item">
+                                        <a class="codepro-custom-btn codepro-btn-12"
+                                            href="/contact.html"><span>Click!</span><span>Liên hệ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
                                         <a href="/products/plastigauge-PL-X.html"><img src="/img/plastigauge-plx-1.jpg"
-                                                alt="plastigauge-x-1"></a>
+                                                alt="Hộp plastigauge PL-X"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -367,7 +443,8 @@
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden img-fluid">
                                         <a href="silicone-mineral-grease.html"><img
-                                                src="/img/plastigauge-silicion-1.jpg" alt="plastigauge-silicion-1"></a>
+                                                src="/img/plastigauge-silicion-1.jpg"
+                                                alt="Bịch Plastigauge silicion và mineral grease"></a>
                                     </div>
                                     <div class="p-4 pb-0 text-center">
                                         <h5 class="card-title">
@@ -387,28 +464,210 @@
                 </div>
             </div>
         </div>
+        <!-- Payment & Shipping Start -->
+        <div class="container-xxl py-5 bg-light">
+            <div class="container">
+                <div class="row g-4">
+
+                    <!-- Phương thức thanh toán -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-white rounded p-4 h-100 shadow-sm">
+                            <h4 class="text-primary mb-3">
+                                <i class="bi bi-bank me-2"></i>
+                                Phương thức thanh toán
+                            </h4>
+
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-credit-card-2-front fs-3 text-success me-3"></i>
+                                <p class="mb-0">
+                                    Thanh toán bằng <strong>chuyển khoản tài khoản công ty</strong>
+                                </p>
+                            </div>
+
+                            <ul class="ms-4 mb-3">
+                                <li>
+                                    <strong>Hàng có sẵn:</strong> Thanh toán trước <strong>100%</strong> giá trị đơn
+                                    hàng.
+                                </li>
+                                <li>
+                                    <strong>Hàng đặt trước:</strong> Thanh toán trước <strong>70%</strong>, phần còn lại
+                                    thanh
+                                    toán khi nhận hàng.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Phương thức giao hàng -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="bg-white rounded p-4 h-100 shadow-sm">
+                            <h4 class="text-primary mb-3">
+                                <i class="bi bi-truck me-2"></i>
+                                Phương thức giao hàng
+                            </h4>
+
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="/img/viettelpost-logo.png" alt="Viettel Post logo" style="height:32px"
+                                    class="me-3">
+                                <p class="mb-0"><strong>Trong nước:</strong> Giao hàng qua Viettel Post</p>
+                            </div>
+
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="/img/dhl-logo.png" alt="DHL Express logo" style="height:32px" class="me-3">
+                                <p class="mb-0"><strong>Quốc tế:</strong> Giao hàng qua DHL Express</p>
+                            </div>
+
+                            <ul class="ms-4 mb-0">
+                                <li>
+                                    <strong>Hàng có sẵn:</strong> 3 – 5 ngày làm việc
+                                </li>
+                                <li>
+                                    <strong>Hàng đặt trước:</strong> Khoảng 10 ngày làm việc
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Payment & Shipping End -->
+
+        <!-- Technical Articles List Start -->
+        <!-- Technical Articles Inline List Start -->
+        <div class="container-xxl py-5 bg-light">
+            <div class="container">
+
+                <div class="mb-3">
+                    <h2 style="color:#5a8e0e;">Thông tin kỹ thuật Plastigauge</h2>
+                    <p class="text-muted mb-0">
+                        Tài liệu kỹ thuật và hướng dẫn đo khe hở bằng Plastigauge.
+                    </p>
+                </div>
+
+                <div class="tech-inline-list">
+
+                    <a href="https://plastigauge.vn/information/cach-plastigauge-hoat-dong.html" class="tech-inline">
+                        <span class="ti-icon">⚙️</span>
+                        <span class="ti-title">Cách Plastigauge hoạt động</span>
+                        <span class="ti-desc">Nguyên lý đo khe hở bằng biến dạng vật liệu.</span>
+                        <span class="ti-date">12/01/2025</span>
+                    </a>
+
+                    <a href="https://plastigauge.vn/information/huong-dan-su-dung-plastigauge.html" class="tech-inline">
+                        <span class="ti-icon">📐</span>
+                        <span class="ti-title">Hướng dẫn sử dụng Plastigauge</span>
+                        <span class="ti-desc">Các bước đo khe hở ổ trục chính xác.</span>
+                        <span class="ti-date">14/01/2025</span>
+                    </a>
+
+                    <a href="https://plastigauge.vn/information/ung-dung-plastigauge-trong-o-to.html"
+                        class="tech-inline">
+                        <span class="ti-icon">🚗</span>
+                        <span class="ti-title">Ứng dụng Plastigauge trong ô tô</span>
+                        <span class="ti-desc">Đo bạc lót và trục khuỷu động cơ.</span>
+                        <span class="ti-date">18/01/2025</span>
+                    </a>
+
+                    <a href="https://plastigauge.vn/information/do-khe-ho-truc-khuyu-plastigauge.html"
+                        class="tech-inline">
+                        <span class="ti-icon">🔧</span>
+                        <span class="ti-title">Đo khe hở trục khuỷu</span>
+                        <span class="ti-desc">Quy trình đo và đọc kết quả đúng kỹ thuật.</span>
+                        <span class="ti-date">22/01/2025</span>
+                    </a>
+
+                    <a href="https://plastigauge.vn/information/cach-doc-thang-do-plastigauge.html" class="tech-inline">
+                        <span class="ti-icon">📏</span>
+                        <span class="ti-title">Cách đọc thang đo Plastigauge</span>
+                        <span class="ti-desc">So sánh vệt ép với thang đo.</span>
+                        <span class="ti-date">25/01/2025</span>
+                    </a>
+
+                    <a href="https://plastigauge.vn/information/loi-thuong-gap-plastigauge.html" class="tech-inline">
+                        <span class="ti-icon">⚠️</span>
+                        <span class="ti-title">Lỗi thường gặp khi dùng Plastigauge</span>
+                        <span class="ti-desc">Những sai lầm làm sai lệch kết quả đo.</span>
+                        <span class="ti-date">28/01/2025</span>
+                    </a>
+
+                    <a href="https://plastigauge.vn/information/bao-quan-plastigauge.html" class="tech-inline">
+                        <span class="ti-icon">📦</span>
+                        <span class="ti-title">Bảo quản Plastigauge đúng cách</span>
+                        <span class="ti-desc">Giữ độ chính xác và tuổi thọ sản phẩm.</span>
+                        <span class="ti-date">30/01/2025</span>
+                    </a>
+
+                </div>
+
+                <div class="mt-3">
+                    <a href="https://plastigauge.vn/information/index.html"
+                        class="fw-semibold text-decoration-none text-primary">
+                        → Xem tất cả bài viết kỹ thuật
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- Technical Articles Inline List End -->
+
+        <!-- Technical Articles List End -->
+
+
+
+
         <!-- Courses List End -->
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
+
+                    <!-- Thông tin liên lạc -->
+                    <!-- Thông tin liên lạc -->
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Thông tin liên lạc</h5>
+                        <h5 class="text-white mb-4">
+                            Thông tin liên lạc – Plastigauge Việt Nam
+                        </h5>
+
+                        <!-- Văn phòng -->
                         <div class="mb-2">
-                            <a href="https://g.co/kgs/J5LGtzm" target="_blank"><i
-                                    class="fa fa-map-marker-alt me-3"></i>150 Nguyễn Cư Trinh, Quận 1, TP. Hồ Chí
-                                Minh</a>
+                            <a href="https://maps.google.com/?q=150 Nguyễn Cư Trinh, Quận 1, TP. Hồ Chí Minh"
+                                target="_blank" rel="nofollow noopener" class="text-white-50">
+                                <i class="fa fa-map-marker-alt me-3"></i>
+                                <strong>Văn phòng:</strong>
+                                150 Nguyễn Cư Trinh, Quận 1, TP. Hồ Chí Minh, Việt Nam
+                            </a>
                         </div>
-                        <div class="mb-2">
-                            <a href="tel:0938888958"><i class="fa fa-phone-alt me-3"></i>(+84) 938888958</a>
+
+                        <!-- Kho hàng -->
+                        <div class="mb-2 text-white-50">
+                            <i class="fa fa-warehouse me-3"></i>
+                            <strong>Kho hàng:</strong>
+                            41 Trần Văn Giàu, Phường Tân Thắng, TP. Hồ Chí Minh, Việt Nam
                         </div>
+
+                        <!-- Hotline -->
                         <div class="mb-2">
-                            <a href="mailto:sales@plastigauge.vn"><i
-                                    class="fa fa-envelope me-3"></i>sales@plastigauge.vn</a>
+                            <a href="tel:+84938888958" class="text-white-50">
+                                <i class="fa fa-phone-alt me-3"></i>
+                                <strong>Hotline:</strong> (+84) 938 888 958
+                            </a>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-2">
+                            <a href="mailto:sales@plastigauge.vn" class="text-white-50">
+                                <i class="fa fa-envelope me-3"></i>
+                                <strong>Email:</strong> sales@plastigauge.vn
+                            </a>
                         </div>
                     </div>
+
+
+
+                    <!-- Sản phẩm -->
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Sản Phẩm và Dịch Vụ</h5>
+                        <h5 class="text-white mb-4">Sản phẩm & Dịch vụ</h5>
                         <a class="btn btn-link text-white-50" href="/products/plastigauge-PL-A.html">Plastigauge
                             PL-A</a>
                         <a class="btn btn-link text-white-50" href="/products/plastigauge-PL-B.html">Plastigauge
@@ -419,60 +678,53 @@
                             PL-D</a>
                         <a class="btn btn-link text-white-50" href="/products/plastigauge-PL-E.html">Plastigauge
                             PL-E</a>
+                        <a class="btn btn-link text-white-50" href="/products/plastigauge-PL-F.html">Plastigauge
+                            PL-F</a>
                         <a class="btn btn-link text-white-50" href="/products/plastigauge-PL-X.html">Plastigauge
                             PL-X</a>
                         <a class="btn btn-link text-white-50" href="silicone-mineral-grease.html">Plastigauge Mineral
                             Grease</a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Phương Thức Thanh Toán</h5>
-                        <div class="row g-2 pt-2">
-                            <div class="col-13">
-                                <img style="height: 39px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/e33843e5-0363-4ec9-89d8-5967c636b1ab_VN-53-39.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 39px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/e713f5e2-be7c-477e-96e9-7de24e78ec6b_VN-53-39.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 39px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/507837ac-9aae-445a-b361-b96d6a12ce77_VN-53-39.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 39px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/20fc159a-0eda-4542-a0ae-d9fe3587406f_VN-30-31.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 39px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/110408e5-c2da-4473-8da0-5181aee4d38f_VN-53-39.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 39px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/736ad3c9-867b-4bb0-a7d8-f0d2cbd84f16_VN-53-39.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 50px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/d594365d-81d9-431e-b028-125d1a46d504_VN-64-64.png"
-                                    alt="">
-                            </div>
-                            <div class="col-13">
-                                <img style="height: 50px; width: 50"
-                                    src="https://img.lazcdn.com/us/domino/c57d926d-e93f-4a59-ad9b-82083c0bc2ce_VN-64-64.png"
-                                    alt="">
-                            </div>
 
+                    <!-- Phương thức thanh toán -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Phương thức thanh toán</h5>
+
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="bi bi-bank fs-5 me-3 text-success"></i>
+                            <span>Chuyển khoản <strong>tài khoản công ty</strong></span>
+                        </div>
+
+                        <div class="small text-white-50 ms-4">
+                            • Hàng có sẵn: Thanh toán trước <strong>100%</strong><br>
+                            • Hàng đặt trước: Thanh toán trước <strong>70%</strong>
                         </div>
                     </div>
+
+                    <!-- Phương thức vận chuyển -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Phương thức vận chuyển</h5>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="/img/viettelpost-logo.png" alt="Viettel Post" style="height:30px" class="me-3">
+                            <span>Giao hàng trong nước (3–5 ngày)</span>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="/img/dhl-logo.png" alt="DHL Express" style="height:30px" class="me-3">
+                            <span>Giao hàng quốc tế</span>
+                        </div>
+
+                        <div class="small text-white-50">
+                            • Hàng có sẵn: 3 – 5 ngày làm việc<br>
+                            • Hàng đặt trước: ~10 ngày làm việc
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+
         <!-- Footer End -->
 
         <!-- Chat Zalo -->
