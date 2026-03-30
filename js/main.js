@@ -42,6 +42,15 @@
             "afterbegin"
         );
 
+        await loadAndInsert(
+            [
+                "/footer.html",
+                "footer.html",
+                "../footer.html"
+            ],
+            "beforeend"
+        );
+
         // 3. Ẩn spinner sau một lúc
         setTimeout(function () {
             var spinnerEl = document.getElementById("spinner");
